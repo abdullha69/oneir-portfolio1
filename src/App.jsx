@@ -7,6 +7,7 @@ import {
   FaDiscord,
   FaTelegramPlane,
   FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import { SiFiverr, SiTiktok } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
@@ -1079,7 +1080,7 @@ export default function App() {
                     </div>
                     <div className="flex-1">
                       <p className="font-semibold text-slate-900">
-                        Ms. Umme Ruman
+                        Dr. Umme Ruman
                       </p>
                       <p className="text-xs text-slate-700">
                         {language === "en"
@@ -1199,7 +1200,7 @@ export default function App() {
                           <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-sky-50 text-sky-600">
                             <MdEmail />
                           </span>
-                          <span>abdullahoneir@gmail.com</span>
+                          <span>abdullha.hill.oneir.cse@gmail.com</span>
                         </p>
                         <p className="flex items-center gap-2">
                           <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-sky-50 text-sky-600">
@@ -1247,10 +1248,16 @@ export default function App() {
                           Icon={SiFiverr}
                         />
                         <SocialIconButton
-                          href="mailto:abdullahoneir@gmail.com"
+                          href="mailto:abdullha.hill.oneir.cse@gmail.com"
                           label="Email"
                           Icon={MdEmail}
                         />
+                        <SocialIconButton
+                            href="https://www.youtube.com/@abdullhahilloneir69"
+                            label="YouTube"
+                            Icon={FaYoutube}
+                         />
+
                         <SocialIconButton
                           href="https://web.whatsapp.com/+8801772371330"
                           label="WhatsApp"
